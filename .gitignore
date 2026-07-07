@@ -1,0 +1,20 @@
+# Python cache and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+# Temporary audio generated during processing
+temp.wav
+*.tmp.wav
+# Input audio files: keep large/private source recordings out of Git
+*.WAV
+*.wav
+*.mp3
+# Generated voice extraction outputs
+processed_audio/
+*_voice_only.wav
+*_voice_only.mp3
+segments/
