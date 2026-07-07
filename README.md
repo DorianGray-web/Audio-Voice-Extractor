@@ -84,6 +84,24 @@ processed_audio/
 ```
 ---
 
+## ▶ Installation
+
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install FFmpeg and make sure it is available in your system PATH.
+
+Then run:
+
+```bash
+python voice_vad_ready.py
+```
+
+---
+
 ## ▶ Usage
 
 Place your WAV recordings into the project folder.
